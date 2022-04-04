@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  height: 100vh;
+  min-width: 500px;
+  background-color: #333;
+  color: white;
+}
+
+#board {
+  border: none;
+}
+
+div {
+  height: 50px;
+  width: 50px;
+  border: 2px solid;
+}
+
+button {
+  font-family: inherit;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 5px;
+  border: none;
+  padding: 1em 2em;
+  background: #ffcdb2;
+}
+
+button:hover,
+button:focus {
+  transform: scale(1.02);
+  cursor: pointer;
+}
